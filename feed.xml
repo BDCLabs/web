@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta property="og:image" content="https://realserver2.com/html_bdc/img/bc.jpg">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="리서치 기반 스타트업 투자를 통해 함께 성장하는 비디씨랩스(BDC Labs.)">
+<meta name="naver-site-verification" content="f7ee6d74aeb893628c60a3543cf6aad8d3b653ef" />
+<link rel="stylesheet" href="https://www.bdclabs.co.kr/css/style.css" type="text/css"/>
+<link rel="stylesheet" href="https://www.bdclabs.co.kr/css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://www.bdclabs.co.kr/js/jquery-1.8.3.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<title>BDC Labs</title>
+</head>
+<body>
+<header id="header">
+<div class="inner">
+<h1 class="style_h1"><a href="https://realserver2.com/html_bdc/"><img id="logosvg" src="https://www.bdclabs.co.kr/img/logo.svg" alt=""></a></h1>
+<div class="menu_wrap">
+<div class="menuBtn_wrap"><img id="menuBtn" src="https://www.bdclabs.co.kr/img/menu.png" alt=""></div>
+<div class="slide-menu">
+<div class="inner">
+<div><img id="closeBtn" src="https://www.bdclabs.co.kr/img/close.png" alt=""></div>
+<div class="nav">
+<ul>
+<li><a class="nav-menu" href="https://www.bdclabs.co.kr#about">About</a></li>
+<li><a class="nav-menu" href="https://www.bdclabs.co.kr#portfolio">Portfolio</a></li>
+<li><a class="nav-menu" href="https://www.bdclabs.co.kr#process">Process</a></li>
+<li><a class="nav-menu" href="https://www.bdclabs.co.kr#alliance">Alliance</a></li>
+<li><a class="nav-menu" href="https://www.bdclabs.co.kr#people">People</a></li>
+<li><a class="nav-menu" href="https://www.bdclabs.co.kr#contact">Contact</a></li>
+</ul>
+<!--<div class="contact">
+<div class="tit">Contact us</div>
+<h4 class="style_h4 des"><a href="mailto:khay@bdclabs.co.kr">khay@bdclabs.co.kr</a></h4>
+</div>-->
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section id="main">
+<article class="main_01" id="about">
+<div class="bg"></div>
+<div class="inner">
+<div class="m1">
+<div class="tit"><p style="font-weight:bold;">Life is Choice </p>between Birth and Death</div>
+<div class="des1">- Jean Paul Sartre -</div>
+<div class="des2">인생이 선택의 연속이듯, <span class="txt_br">기업의 성장 역시 수많은 선택을 통해 이루어집니다. </span><br><span class="txt_br">BDC Labs는 기업의 시작(Birth)부터 </span><span class="txt_br">종착지(Destination)까지 </span><span class="txt_br">모든 선택(Choice)에 <br>도움을 주며 </span><span class="txt_br">함께 성장하기 위해 항상 준비되어 있습니다. </span></div>
+</div>
+</div>
+</article>
+<article class="main_02" id="portfolio">
+<div class="inner">
+<h1 class="tit_h1 style_h1">Portfolio</h1>
+<ul class="m2_img">
+<li class="item"><a href="https://swingmobility.co/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio1.png" alt=""></a></li>
+<li class="item"><a href="https://ridibooks.com/webtoon/recommendation" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio2.png" alt=""></a></li>
+<li class="item"><a href="https://www.senko.co.kr/web2019/main.php" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio3.png" alt=""></a></li>
+<li class="item"><a href="https://www.collectionb.cc/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio4.png" alt=""></a></li>
+<li class="item"><a href="https://www.onul-hoi.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio5.png" alt=""></a></li>
+<li class="item"><a href="http://gray-go.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio6.png" alt=""></a></li>
+<li class="item"><a href="https://home.itsdcode.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio7.png" alt=""></a></li>
+<li class="item"><a href="https://kr.wirebarley.com/?lang=en" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio8.png" alt=""></a></li>
+<li class="item"><a href="https://b4play.io/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio9.png" alt=""></a></li>
+<li class="item"><a href="https://qunovacomputing.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio10.png" alt=""></a></li>
+<li class="item"><a href="https://www.millibatt.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio11.png" alt=""></a></li>
+<li class="item"><a href="https://motion2ai.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio12.png" alt=""></a></li>
+<li class="item"><a href="https://brich.co.kr/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio13.png" alt=""></a></li>
+<li class="item"><a href="https://www.stagefive.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio14.png" alt=""></a></li>
+<li class="item"><a href="https://www.kokkiri.kr/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio15.png" alt=""></a></li>
+<li class="item"><a href="https://www.sweetspot.co.kr/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio16.png" alt=""></a></li>
+<li class="item"><a href="http://www.pncsolution.co.kr/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio17.png" alt=""></a></li>
+<li class="item"><a href="https://pline.co.kr/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio18.png" alt=""></a></li>
+<li class="item"><a href="http://sapien-semicon.com/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio19.png" alt=""></a></li>
+<li class="item"><a href="http://www.alt-s.kr/" target="_blank"><img src="https://www.bdclabs.co.kr/img/portfolio20.png" alt=""></a></li>
+</ul>
+</div>
+</article>
+<article class="main_03" id="process">
+<div class="main3_bg">
+<div class="main3_bg_shadow"></div>
+<div class="inner">
+<h1 class="tit_h1 style_h1">Our Process</h1>
+<ul class="m3">
+<li>
+<div class="m3_img"><img src="https://www.bdclabs.co.kr/img/process1.png" alt=""></div>
+<div class="m3_text">
+<div class="m3_text_wrap">
+<div class="tit">Research</div>
+<h5 class="des style_h5"><span style="font-style:italic;">BDC Labs</span>는 미래 사회의 모습을 상상하는 것부터 시작합니다. <br>자본의 흐름을 수반하는 미래 유망 산업은 어떻게 변화할 것인지 공부하고 <br>전문가와 의견을 나눕니다. 높은 수준의 기술적 이해도를 요구하는 산업을 <br>공부하며, 여기서 파생될 수 있는 다양한 서비스를 상상합니다.</h5>
+</div>
+</div>
+</li>
+<li>
+<div class="m3_text">
+<div class="m3_text_wrap">
+<div class="tit">Deal Sourcing​</div>
+<h5 class="des style_h5">우리가 공부한 미래 산업에서 핵심 역할을 할 것으로 보이는 기업들과 <br>만납니다. 미래 산업에 대한 그들의 의견을 경청하며, <br>우리가 공부한 내용과의 시너지를 고민하여, 투자를 결정합니다.</h5>
+</div>
+</div>
+<div class="m3_img"><img src="https://www.bdclabs.co.kr/img/process2.png" alt=""></div>
+</li>
+<li>
+<div class="m3_img"><img src="https://www.bdclabs.co.kr/img/process3.png" alt=""></div>
+<div class="m3_text">
+<div class="m3_text_wrap">
+<div class="tit">Post-Investment & <br>Value-up</div>
+<h5 class="des style_h5">이렇게 투자한 기업과 지속적으로 관련 산업의 Follow-on 스터디를 하며, 기업 성장에 도움이 될 수 있는 다양한 전략 아이디어를 함께 고민합니다. 투자한 산업들 간의 연결 고리에서 새로운 아이디어를 상상하며, 투자자의 관점과 사업자의 관점을 함께 녹이는 경험을 쌓아갑니다, 이러한 경험들은 BDC Labs의 새로운 투자를 위한 양분이 됩니다.</h5>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</article>
+<article class="main_04" id="alliance">
+<div class="inner">
+<h1 class="tit_h1 style_h1">Alliance</h1>
+<div class="m4_img"></div>
+</div>
+</article>
+<article class="main_05" id="people">
+<div class="inner">
+<h1 class="tit_h1 style_h1">People</h1>
+<ul class="m5">
+<li>
+<div class="m5_img"><img src="https://www.bdclabs.co.kr/img/Choi_Younghwan.jpg" alt=""></div>
+<div class="m5_des">
+<div class="tit">최영환</div>
+<div class="des">대표</div>
+</div>
+</li>
+<li>
+<div class="m5_img"><img src="https://www.bdclabs.co.kr/img/Heo_Eunkyung.jpg" alt=""></div>
+<div class="m5_des">
+<div class="tit">허은경</div>
+<div class="des">상무</div>
+</div>
+</li>
+<li>
+<div class="m5_img"><img src="https://www.bdclabs.co.kr/img/Um_Youngsik.png" alt=""></div>
+<div class="m5_des">
+<div class="tit">엄영식</div>
+<div class="des">이사</div>
+</div>
+</li>
+<li>
+<div class="m5_img"><img src="https://www.bdclabs.co.kr/img/Jung_Wonho.jpg" alt=""></div>
+<div class="m5_des">
+<div class="tit">정원호</div>
+<div class="des">이사</div>
+</div>
+</li>
+<li>
+<div class="m5_img"><div class="empty_img"></div></div>
+<div class="m5_des">
+<div class="tit">김용주</div>
+<div class="des">경영고문</div>
+</div>
+</li>
+<li>
+<div class="m5_img"><img src="https://www.bdclabs.co.kr/img/Song_Chanwoo.png" alt=""></div>
+<div class="m5_des">
+<div class="tit">송찬우</div>
+<div class="des">연구원</div>
+</div>
+</li>
+<li>
+<div class="m5_img"><img src="https://www.bdclabs.co.kr/img/Kim_Hayoung.jpg" alt=""></div>
+<div class="m5_des">
+<div class="tit">김하영</div>
+<div class="des">사원</div>
+</div>
+</li>
+</ul>
+</div>
+</article>
+<article class="main_06" id="contact">
+<div class="inner">
+<h1 class="tit_h1 style_h1">Contact</h1>
+<div class="map">
+<div id="daumRoughmapContainer1649390853918" class="root_daum_roughmap root_daum_roughmap_landing map_r" style="width:100%;"></div>
+</div>
+<ul class="m6_des">
+<li>
+<div class="tit">주소.</div>
+<div class="des">서울시 강남구 선릉로 813, 3층 <br>티그리스 타워</div>
+</li>
+<li>
+<ul>
+<li>
+<div class="tit">Fax.</div>
+<div class="des">02-543-8133</div>
+</li>
+<li>
+<div class="tit">Mail.</div>
+<div class="des"><a href="mailto:khay@bdclabs.co.kr"></a>khay@bdclabs.co.kr</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</article>
+</section>
+
+<footer id="footer" class="outer">
+<div class="inner">
+<h1 class="tit_h1 style_h1">BDC Labs</h1>
+<div class="copy">Copyright ⓒ BDC Labs all rights reserved.</div>
+</div>
+</footer>
+
+<script>
+//스크롤 발생시 헤더 변경
+$(window).scroll(function(){
+var scroll = $(window).scrollTop();
+if (scroll >= 5) {
+$('#header').addClass('scroll');
+document.getElementById("logosvg").src = "./img/logo_mint.svg";
+document.getElementById("menuBtn").src = "./img/menu_mint.png";
+} else {
+$('#header').removeClass('scroll');
+document.getElementById("logosvg").src = "./img/logo.svg";
+document.getElementById("menuBtn").src = "./img/menu.png";
+}
+});
+
+$(document).ready(function(){
+//menu-on/off
+$("#menuBtn").click(function(){
+$(".slide-menu").slideDown(300);
+setTimeout(function(){
+$('.nav').addClass('on');
+},350);
+$('html, body').css('overflow-y','hidden');
+
+});
+$("#closeBtn , .nav-menu").click(function(){
+$(".slide-menu").slideUp(0);
+$('.nav').removeClass('on');
+$('html, body').css('overflow-y','visible');
+});
+//scrolltop
+$('.nav-menu').on('click', function(e){
+e.preventDefault();
+var h_heingt = $("#header").innerHeight();
+
+$('html, body').animate({scrollTop:$(this.hash).offset().top - h_heingt}, 600)
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$('#about .bg').delay(2000).fadeIn(1000);
+$('#about .tit').delay(3000).fadeIn(800);
+$('#about .des1').delay(4000).fadeIn(800);
+$('#about .des2').delay(5000).fadeIn(800);
+});
+</script>
+
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<script charset="UTF-8">
+new daum.roughmap.Lander({
+"timestamp" : "1649390853918",
+"key" : "29rsx",
+"mapHeight" : "525"
+}).render();
+</script>
+
+</body>
+</html>
