@@ -1,2 +1,4 @@
 User-agent: Yeti
 Allow:/
+
+Sitemap: https://www.bdclabs.co.kr/sitemap.xml
