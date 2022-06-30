@@ -1,4 +1,4 @@
-User-agent: Yeti
+User-agent: *
 Allow:/
 
 Sitemap: https://www.bdclabs.co.kr/sitemap.xml
