@@ -513,7 +513,7 @@ li {list-style:none;}
 #portfolio .m2_img{display: flex;flex-wrap: wrap;}
 #portfolio .m2_img .item{display: flex;width: 25%;height: 150px;align-items: center;justify-content: center;}
 #portfolio .m2_img .item > a{display: flex;align-items: center;justify-content: center;flex:1;}
-#portfolio .m2_img .item > a img{max-width: 100%;}
+#portfolio .m2_img .item > a img{max-width: 80%;}
 
 
 #process{padding-top: 110px;padding-bottom: 170px;}
