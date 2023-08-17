@@ -511,7 +511,7 @@ li {list-style:none;}
 #portfolio{padding-top: 113px;padding-bottom: 80px;}
 #portfolio .tit_h1{margin-bottom: 80px;}
 #portfolio .m2_img{display: flex;flex-wrap: wrap;}
-#portfolio .m2_img .item{display: flex;width: 25%;height: 350px;align-items: center;justify-content: center;}
+#portfolio .m2_img .item{display: flex;width: 25%;height: 150px;align-items: center;justify-content: center;}
 #portfolio .m2_img .item > a{display: flex;align-items: center;justify-content: center;flex:1;}
 #portfolio .m2_img .item > a img{max-width: 100%;}
 
