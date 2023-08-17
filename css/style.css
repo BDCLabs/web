@@ -508,12 +508,12 @@ li {list-style:none;}
 #about .des1{display: none;font-size: 18px; font-family: 'Roboto', sans-serif;font-style: italic;line-height: 1.5;padding-top: 20px;padding-bottom: 30px;text-shadow: 0 2px 4px rgb(0 0 0 / 35%);}
 #about .des2{display: none;font-size: 16px;line-height: 1.6;font-weight:500;text-shadow: 0 1px 2px rgb(0 0 0 / 40%);}
 
-#portfolio{padding-top: 50px;padding-bottom: 50px;}
-#portfolio .tit_h1{margin-bottom: 50px;}
+#portfolio{padding-top: 113px;padding-bottom: 80px;}
+#portfolio .tit_h1{margin-bottom: 80px;}
 #portfolio .m2_img{display: flex;flex-wrap: wrap;}
-#portfolio .m2_img .item{display: flex;width: 50%;height: 100px;align-items: center;justify-content: center;}
+#portfolio .m2_img .item{display: flex;width: 25%;height: 350px;align-items: center;justify-content: center;}
 #portfolio .m2_img .item > a{display: flex;align-items: center;justify-content: center;flex:1;}
-#portfolio .m2_img .item > a img{max-width: 80%;}
+#portfolio .m2_img .item > a img{max-width: 100%;}
 
 
 #process{padding-top: 110px;padding-bottom: 170px;}
