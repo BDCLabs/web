@@ -23,7 +23,7 @@
 	#about{height: 890px;}
 	
 	#portfolio{padding-bottom: 40px;}
-	#portfolio .m2_img .item{height: 200px;}
+	#portfolio .m2_img .item{height: 150px;}
 	#portfolio .m2_img .item img{transform:scale(0.8)}
 
 	.main3_bg{background-image:url('../img/road_pc.png');}
