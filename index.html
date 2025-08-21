@@ -322,34 +322,43 @@
 <!-- </script> --> -->
 
 <script>
-// 2) 전역 변수명 변경 (window.location과 충돌 방지)
-var mapInstance;
+// 전역 변수로 선언하여 initMap() 함수 밖에서도 접근 가능하게 합니다.
+var map;
+var marker;
+
 function initMap() {
-  var mapCenter = new naver.maps.LatLng(37.50723321569034, 127.05326469357381);
+    // 1. Naver Maps의 초기 로드 서비스 호출
+    naver.maps.Service.load(function() {
+        var mapCenter = new naver.maps.LatLng(37.50723321569034, 127.05326469357381);
+        
+        var mapOptions = {
+            center: mapCenter,
+            zoom: 17,
+            zoomControl: true,
+            zoomControlOptions: {
+                style: naver.maps.ZoomControlStyle.SMALL,
+                position: naver.maps.Position.TOP_RIGHT
+            }
+        };
 
-  var mapOptions = {
-    center: mapCenter,
-    zoom: 17,
-    zoomControl: true,
-    zoomControlOptions: {
-      style: naver.maps.ZoomControlStyle.SMALL,
-      position: naver.maps.Position.TOP_RIGHT
-    }
-  };
-
-  // 3) API 로드 완료 후 안전하게 지도 생성
-  var map = new naver.maps.Map('map', mapOptions);
-
-  var marker = new naver.maps.Marker({
-    position: mapCenter,
-    map: map
-  });
+        // 2. 전역 변수에 지도 객체 할당
+        map = new naver.maps.Map('map', mapOptions);
+        
+        // 3. 전역 변수에 마커 객체 할당
+        marker = new naver.maps.Marker({
+            position: mapCenter,
+            map: map
+        });
+    });
 }
+
+// 4. `window.onload`를 사용하여 페이지 로드 시 initMap 함수 호출
 window.onload = initMap;
 </script>
 	 
  </body>
 </html>
+
 
 
 
