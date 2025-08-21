@@ -324,18 +324,35 @@
 <body>
 
 <script>
+// 1. 지도의 중심점이 될 정확한 위치의 좌표를 변수로 지정합니다.
+var location = new naver.maps.LatLng(37.50723321569034, 127.05326469357381);
+
+// 2. 지도 옵션을 설정합니다.
 var mapOptions = {
-    center: new naver.maps.LatLng(37.50723321569034, 127.05326469357381),
-    zoom: 10
+    center: location, // 지도의 중심을 위에서 지정한 위치로 설정합니다.
+    zoom: 17, // 확대 수준을 17로 설정하여 주변 건물이 잘 보이도록 합니다. 숫자가 클수록 확대됩니다.
+    zoomControl: true, // 줌 컨트롤 UI를 지도에 표시합니다.
+    zoomControlOptions: {
+        style: naver.maps.ZoomControlStyle.SMALL,
+        position: naver.maps.Position.TOP_RIGHT
+    }
 };
 
+// 3. 설정한 옵션을 바탕으로 지도를 생성합니다.
 var map = new naver.maps.Map('map', mapOptions);
+
+// 4. 해당 위치에 표시할 마커(핀)를 생성합니다.
+var marker = new naver.maps.Marker({
+    position: location, // 마커의 위치를 위에서 지정한 위치로 설정합니다.
+    map: map // 마커를 표시할 지도를 위에서 생성한 map 객체로 지정합니다.
+});
 </script>
 
 
 	 
  </body>
 </html>
+
 
 
 
