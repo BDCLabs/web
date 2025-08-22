@@ -23,8 +23,10 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <!-- 	네이버 지도 연결  -->
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<title>간단한 지도 표시하기</title>
 	<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=wacmcfz4ks"></script>
 
   <title>비디씨랩스(BDC Labs.)</title>
@@ -226,8 +228,8 @@
 	<article class="main_06" id="contact">
 		<div class="inner">
 			<h1 class="tit_h1 style_h1">Contact</h1>
-			<div class="map">	
-				<div id="map" style="width:80%;height:400px;"></div>
+			<div class="map">
+				<div id="daumRoughmapContainer1660093720139" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%"></div>
 			</div>
 			<ul class="m6_des">
 				<li>
@@ -242,7 +244,7 @@
 						</li>
 						<li>
 							<div class="tit">Mail.</div>
-							<div class="des"><a href="mailto:jyj@bdclabs.co.kr"></a>jyj@bdclabs.co.kr</div>
+							<div class="des"><a href="mailto:jyj@bdclabs.co.kr"></a>ce.kim@bdclabs.co.kr</div>
 						</li>
 					</ul>
 				</li>
@@ -320,42 +322,23 @@
 <!-- 		"mapHeight" : "360" -->
 <!-- 	}).render(); -->
 <!-- </script> --> -->
-
+<head>
+	
+</head>
 <body>
+<div id="map" style="width:100%;height:400px;"></div>
 
 <script>
-// 1. 지도의 중심점이 될 정확한 위치의 좌표를 변수로 지정합니다.
-var location = new naver.maps.LatLng(37.50723321569034, 127.05326469357381);
-
-// 2. 지도 옵션을 설정합니다.
 var mapOptions = {
-    center: location, // 지도의 중심을 위에서 지정한 위치로 설정합니다.
-    zoom: 17, // 확대 수준을 17로 설정하여 주변 건물이 잘 보이도록 합니다. 숫자가 클수록 확대됩니다.
-    zoomControl: true, // 줌 컨트롤 UI를 지도에 표시합니다.
-    zoomControlOptions: {
-        style: naver.maps.ZoomControlStyle.SMALL,
-        position: naver.maps.Position.TOP_RIGHT
-    }
+    center: new naver.maps.LatLng(37.3595704, 127.105399),
+    zoom: 10
 };
 
-// 3. 설정한 옵션을 바탕으로 지도를 생성합니다.
 var map = new naver.maps.Map('map', mapOptions);
-
-// 4. 해당 위치에 표시할 마커(핀)를 생성합니다.
-var marker = new naver.maps.Marker({
-    position: location, // 마커의 위치를 위에서 지정한 위치로 설정합니다.
-    map: map // 마커를 표시할 지도를 위에서 생성한 map 객체로 지정합니다.
-});
 </script>
 
 
 	 
  </body>
 </html>
-
-
-
-
-
-
 
