@@ -462,6 +462,16 @@ li {list-style:none;}
 .login_type02 .bnr .txt span {font-weight:600}
 .login_type02 .bnr .txt p {color: #0054a6;}
 
+/* 지도 */
+.map-box {
+  width: 80%;        /* 전체의 80%만 차지 */
+  max-width: 900px;  /* 최대 900px까지만 넓어짐 */
+  height: 400px;     /* 기존 높이 */
+  margin: 0 auto;    /* 가운데 정렬 */
+  border-radius: 12px; /* (선택) 모서리 둥글게 */
+  overflow: hidden;   /* (선택) 모서리 바깥 지도 잘림 방지 */
+}
+
 
 /*공통*/
 .body_wrap{max-width: 1920px; width: 100%;margin: 0 auto;overflow-x:hidden;}
@@ -568,4 +578,5 @@ li {list-style:none;}
 #footer{color: #fff;background:#4CBBBA;padding: 20px 0;text-align:center;}
 #footer .tit_h1{font-size: 18px;font-style: italic;font-weight: 700;padding-bottom: 9px;}
 #footer .copy{font-size: 15px;}
+
 
