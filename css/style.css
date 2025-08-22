@@ -472,6 +472,41 @@ li {list-style:none;}
   overflow: hidden;   /* (선택) 모서리 바깥 지도 잘림 방지 */
 }
 
+/* 브랜드 컬러 핀 */
+.bdc-pin{
+  width:24px; height:24px;
+  border-radius:50% 50% 50% 0;
+  background:#4CBBBA;
+  transform:rotate(-45deg);
+  position:relative;
+  box-shadow:0 2px 6px rgba(0,0,0,.25);
+}
+.bdc-pin::after{
+  content:'';
+  width:10px; height:10px;
+  background:#fff; border-radius:50%;
+  position:absolute; left:7px; top:7px;
+}
+
+/* 작은 라벨(핀 오른쪽) */
+.bdc-label{
+  font-size:14px;
+  font-weight:700;
+  padding:4px 8px;
+  background:#ffffff;
+  border:1px solid #e5e5e5;
+  border-radius:6px;
+  box-shadow:0 1px 3px rgba(0,0,0,.08);
+  white-space:nowrap;
+}
+
+/* 주소 인포창 */
+.bdc-info{
+  padding:10px 14px; line-height:1.5;
+}
+.bdc-info-title{
+  font-weight:700; margin-bottom:4px;
+}
 
 /*공통*/
 .body_wrap{max-width: 1920px; width: 100%;margin: 0 auto;overflow-x:hidden;}
@@ -578,5 +613,6 @@ li {list-style:none;}
 #footer{color: #fff;background:#4CBBBA;padding: 20px 0;text-align:center;}
 #footer .tit_h1{font-size: 18px;font-style: italic;font-weight: 700;padding-bottom: 9px;}
 #footer .copy{font-size: 15px;}
+
 
 
