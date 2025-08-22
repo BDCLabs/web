@@ -311,13 +311,6 @@
 </script>
 	 
 <!-- <script>
-var mapOptions = {
-    center: new naver.maps.LatLng(37.50723321569034, 127.05326469357381),
-    zoom: 10
-};
-var map = new naver.maps.Map('map', mapOptions);
-</script> -->
-<script>
   $(function () {
     // 지도 중심 좌표 (원하는 위치로 바꾸세요)
     var centerLatLng = new naver.maps.LatLng(37.50723321569034, 127.05326469357381);
@@ -334,11 +327,69 @@ var map = new naver.maps.Map('map', mapOptions);
       map: map
     });
   });
-</script>
+</script> -->
+<script>
+  $(function () {
+    var centerLatLng = new naver.maps.LatLng(37.50723321569034, 127.05326469357381);
 
+    var map = new naver.maps.Map('map', {
+      center: centerLatLng,
+      zoom: 16
+    });
+
+    // 1) 커스텀 마커(브랜드 컬러)
+    var marker = new naver.maps.Marker({
+      position: centerLatLng,
+      map: map,
+      icon: {
+        content: '<div class="bdc-pin"></div>',
+        anchor: new naver.maps.Point(12, 30) // 핀 끝이 좌표에 닿도록 앵커 보정
+      }
+    });
+
+    // 2) 주소 InfoWindow (기본으로 열림)
+    var info = new naver.maps.InfoWindow({
+      content: (
+        '<div class="bdc-info">' +
+          '<div class="bdc-info-title">BDC Labs</div>' +
+          '<div>서울시 강남구 삼성로95길 31, 2층 세진빌딩</div>' +
+        '</div>'
+      ),
+      backgroundColor: '#fff',
+      borderColor: '#ddd',
+      borderWidth: 1,
+      anchorSize: new naver.maps.Size(8, 8),
+      pixelOffset: new naver.maps.Point(0, -8)
+    });
+    info.open(map, marker); // 기본 오픈
+
+    // 3) 클릭 전 라벨(핀 오른쪽) — 기본 노출
+    var label = new naver.maps.InfoWindow({
+      content: '<div class="bdc-label">BDC Labs</div>',
+      backgroundColor: 'transparent',
+      borderWidth: 0,
+      disableAnchor: true,
+      pixelOffset: new naver.maps.Point(26, -2) // 핀 우측 살짝 위로
+    });
+    label.open(map, marker);
+
+    // 마커 클릭 시: 라벨 닫고 InfoWindow 유지(또는 다시 열기 보강)
+    naver.maps.Event.addListener(marker, 'click', function () {
+      if (label.getMap()) label.close();
+      if (!info.getMap()) info.open(map, marker);
+    });
+
+    // 퍼센트 너비 컨테이너 초기화 보강
+    naver.maps.Event.once(map, 'init', function () {
+      naver.maps.Event.trigger(map, 'resize');
+      map.setCenter(centerLatLng);
+    });
+  });
+</script>
 	 
  </body>
 </html>
+
 
 
 
